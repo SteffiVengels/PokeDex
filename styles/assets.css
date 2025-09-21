@@ -1,0 +1,187 @@
+.searchField {
+    height: 34px;
+    width: 80%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.searchButton {
+    width: 20%;
+    height: 35px;
+    background-color: #b4ebff;
+    border-radius: 0 50px 50px 0;
+    box-shadow: 0 0 2px 1px #fff;
+    cursor: pointer;
+    border-width: 0;
+    padding-inline: 0px;
+    padding-block: 0px;
+}
+
+.loadButton {
+    cursor: pointer;
+    width: 40%;
+    background:none;
+    color: #b3eafe;
+    border: solid;
+    text-shadow:  0 0 5px #b3eafe, 0 0 5px #b3eafe; 
+    border-color: #43688f;
+    border-width: 2px;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 16px;
+}
+
+.loadButton:hover {
+    color: black;
+    background-color: #b3eafe;
+}
+
+.loadButtonDisable {
+    cursor:auto;
+    width: 40%;
+    background:none;
+    color: grey;
+    border: solid;
+    border-color: grey;
+    border-width: 2px;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 16px;
+}
+
+.loadButtonDisable:hover {
+    color: grey;
+    background-color: none;
+}
+
+.closeButton {
+    color: black;
+    background-color: #b4ebff;
+    font-size: 16px;
+    border-color: #8fd0ed;
+    border-width: 4px;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    text-align: center;
+}
+
+.sliderPokemonButton {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: 2px solid #82ccf6;
+    cursor: pointer;
+    background-color: #060c13;
+    color: rgb(130, 204, 246);
+}
+
+.svgColor:hover {
+    color: #82ccf6;
+}
+
+#loadingSpinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 208px);
+    width: 100%;
+    background-color: #0a141e;
+}
+
+.spinner {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ring {
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 50%;
+    animation: rotate 4s linear infinite;
+}
+
+.ring:nth-child(1) {
+    width: 400px;
+    height: 400px;
+    border-top-color: #aae3fb;
+    border-top-width: 8px;
+    animation-delay: -1.33s;
+}
+
+.ring:nth-child(2) {
+    width: 320px;
+    height: 320px;
+    border-top-color: #aae3fb;
+    border-top-width: 8px;
+    animation-delay: -0.66s;
+}
+
+.ring:nth-child(3) {
+    width: 240px;
+    height: 240px;
+    border-top-color: #aae3fb;
+    border-top-width: 8px;
+    animation-delay: 0s;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@media (max-width:1600px) {
+.closeButton {
+    width: 56px;
+}
+}
+
+@media (max-width:768px) {
+    .ring:nth-child(1) {
+        width: 320px;
+        height: 320px;
+    }
+    
+    .ring:nth-child(2) {
+        width: 240px;
+        height: 240px;
+    }
+    
+    .ring:nth-child(3) {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media (max-width:480px) {
+    .loadButton {
+        width: 72%;
+    }
+
+    .ring:nth-child(1) {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .ring:nth-child(2) {
+        width: 136px;
+        height: 136px;
+    }
+    
+    .ring:nth-child(3) {
+        width: 80px;
+        height: 80px;
+    }
+}

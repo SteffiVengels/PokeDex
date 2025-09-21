@@ -1,0 +1,101 @@
+.Grass {
+    border-color: #b4f000;
+    background-color: #92bf19;
+    box-shadow: 0 0 .25em .03em #92bf19;
+}
+
+.Poison {
+    border-color: #d28cd2;
+    background-color: #be78be;
+    box-shadow: 0 0 .25em .03em #be78be;
+}
+
+.Fire {
+    border-color: #ff6900;
+    background-color: #ff3700;
+    box-shadow: 0 0 .25em .03em #ff3700;
+}
+
+.Flying {
+    border-color: #78dcff;
+    background-color: #79bcd7;
+    box-shadow: 0 0 .25em .03em #79bcd7;
+}
+
+.Water {
+    border-color: #14b9ff;
+    background-color: #0094e5;
+    box-shadow: 0 0 .25em .03em #0094e5;
+}
+
+.Bug {
+    border-color: #46c846;
+    background-color: #32b432;
+    box-shadow: 0 0 .25em .03em #32b432;
+}
+
+.Normal {
+    border-color: #dcdcdc;
+    background-color: #a0a0a0;
+    box-shadow: 0 0 .25em .03em #a0a0a0;
+}
+
+.Electric {
+    border-color: #ffe100;
+    background-color: #e4b700;
+    box-shadow: 0 0 .25em .03em #e4b700;
+}
+
+.Ground {
+    border-color: #fac85a;
+    background-color: #cca142;
+    box-shadow: 0 0 .25em .03em #cca142;
+}
+
+.Fairy {
+    border-color: #ffafdc;
+    background-color: #ff7eb8;
+    box-shadow: 0 0 .25em .03em #ff7eb8;
+}
+
+.Fighting {
+    border-color: #dc6900;
+    background-color: #c85500;
+    box-shadow: 0 0 .25em .03em #c85500;
+}
+
+.Psychic {
+    border-color: #f08cdc;
+    background-color: #dc78c8;
+    box-shadow: 0 0 .25em .03em #dc78c8;
+}
+
+.Rock {
+    border-color: #b48c64;
+    background-color: #a07850;
+    box-shadow: 0 0 .25em .03em #a07850;
+}
+
+.Steel {
+    border-color: #aac8f0;
+    background-color: #96b4dc;
+    box-shadow: 0 0 .25em .03em #96b4dc;
+}
+
+.Ice {
+    border-color: #14f5ff;
+    background-color: #00b7ee;
+    box-shadow: 0 0 .25em .03em #00b7ee;
+}
+
+.Ghost {
+    border-color: #a08cff;
+    background-color: #8c78f0;
+    box-shadow: 0 0 .25em .03em #8c78f0;
+}
+
+.Dragon {
+    border-color: #5078dc;
+    background-color: #3c64c8;
+    box-shadow: 0 0 .25em .03em #3c64c8;
+}

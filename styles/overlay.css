@@ -1,0 +1,414 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.375);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stopScrolling {
+    overflow: hidden;
+}
+
+.dialog {
+    background-position: center;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+    width: 640px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../assets/img/overlay2network-3484139_1920.jpg);
+}
+
+#bodyDialog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    margin: 16px;
+}
+
+#bodyDialog img {
+    width: 200px;
+    display: grid;
+    place-items: center;
+}
+
+.bodyDialogLeft {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.bodyDialogRight {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.headDialogSide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.pokemonPreview {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.idPreview {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    color: #060c13;
+    font-weight: bold;
+}
+
+.namePreview {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.bodyDialogMiddle {
+    width: 208px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bodyDialogMiddleTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.typeDialog {
+    width: 100%;
+    height: 50%;
+}
+
+.dataDialog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.dialogType {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.two {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.h-Dialog {
+    font-size: 32px;
+}
+
+.dialogTypes {
+    display: flex;
+    justify-content:center;
+}
+
+.dialogMain {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.dialogMainDiv {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.dialogMainDivHead {
+    font-size: 16px;
+    color: #b4ebff;
+}
+
+.gender {
+    display: flex;
+}
+
+.bodyDialogRightBottom {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.pokemon-status {
+    display: flex;
+    flex-direction: row;
+    margin: 4px;
+}
+
+.pokemon-status_scale {
+    display: flex;
+    height: 24px;
+    width: 8px;
+    background-color: #0a141e;
+    margin: 2px;
+    border: 1px solid #466e9b;
+}
+
+.pokemon-status_scale-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pokemon-status p {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+    text-align: center;
+}
+
+.filled {
+    background-color: #7ad5ff !important;
+}
+
+.dialogTypeSection {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemonInfos {
+    background-color: rgba(10, 20, 30, 0.5);
+    height: 264px;
+    width: 400px;
+    margin-bottom: 16px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.menuOverlay {
+    background-color: rgba(10, 20, 30, 0.9);
+    height: 40px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+}
+
+.menuOverlay p {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuOverlay p:hover {
+    text-shadow: 0 0 5px #b3eafe, 0 0 5px #b3eafe;
+}
+
+.pokemon-name-overlay {
+    font-size: 40px;
+    margin: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    white-space: nowrap;
+}
+
+.baseOverlay {
+    border-radius: 32px;
+    text-align: center;
+    padding: 2px;
+    margin: 16px;
+    margin-top: 0;
+    width: 160px;
+    font-size: 16px;
+}
+
+@media (max-width:1600px) {
+.dialog {
+    height: 600px;
+    width: 440px;
+    background-size: cover;
+}
+
+.bodyDialogLeft {
+    width: 120px;
+}
+
+.bodyDialogMiddle {
+    width: 168px;
+    justify-content: unset;
+}
+
+.bodyDialogRight {
+    width: 120px;
+}
+    
+#bodyDialog img {
+    margin-top: 16px;
+    width: 140px;
+}
+
+.pokemon-name-overlay {
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.namePreview {
+    font-size: 16px;
+}
+
+.idPreview {
+    font-size: 14px;
+}
+
+.pokemonInfos {
+    height: 160px;
+    width: 360px;
+}
+
+.menuOverlay {
+    width: 360px;
+}
+
+#bodyDialog {
+    flex: 0;
+}
+
+.pokemon-status p {
+    width: 112px;
+}
+
+.pokemon-status_scale {
+    height: 8px;
+}
+
+.pokemon-status {
+    margin: 2px;
+}
+
+.baseOverlay {
+    width: 120px;
+}
+}
+
+
+@media (max-width:480px) {
+    .dialog {
+        width: 300px;
+    }
+
+    .namePreview {
+        display: none;
+    }
+
+    .idPreview {
+        display: none;
+    }
+
+    #bodyDialog img {
+        margin: 20px;
+    }
+
+    .bodyDialogLeft {
+        width: 50px;
+    }
+
+    .bodyDialogRight {
+        width: 50px;
+    }
+
+    .menuOverlay {
+        width: 268px;
+    }
+
+    .pokemonInfos {
+        width: 268px;
+    }
+    
+    .pokemon-status p {
+        width: 96px;
+        text-align: start;
+        font-size: 12px;
+    }
+
+    .pokemon-status_scale {
+        width: 4px;
+    }
+
+    .dialogMainDivHead {
+        font-size: 14px;
+    }
+
+    .baseOverlay {
+        font-size: 14px;
+        width: 80px;
+    }
+}
